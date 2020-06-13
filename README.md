@@ -8,8 +8,8 @@ This is cleaned-up code with comments and with few bug fixes that I didn't catch
 ## Dependencies
 
 * gfortran
-* Python (for plotting)
 * [fpm](https://github.com/fortran-lang/fpm)
+* Python (for plotting)
 * ffmpeg (for animating images)
 
 ## Get the code
@@ -19,6 +19,10 @@ git clone https://github.com/modern-fortran/twitch-stream-tsunami
 cd twitch-stream-tsunami
 ```
 
+## Install fpm
+
+Follow the directions from [here](https://github.com/fortran-lang/fpm).
+
 ## Set up Python environment (for plotting)
 
 ```
@@ -27,10 +31,6 @@ source venv/bin/activate
 pip install -U pip
 pip install -r requirements.txt
 ```
-
-## Install fpm
-
-Follow the directions from [here](https://github.com/fortran-lang/fpm).
 
 ## Build the code
 
