@@ -1,0 +1,5 @@
+build
+venv
+*.png
+*.mp4
+out.txt
